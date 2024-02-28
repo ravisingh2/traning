@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Ravi",
+      "password": "123",
+      "balance": 500,
+      "accountno": "123456"
+    },
+    {
+      "id": 2,
+      "username": "Satish",
+      "password": "123",
+      "balance": 2500,
+      "accountno": "123457"
+    },
+    {
+      "id": 3,
+      "username": "mohan",
+      "password": "1234",
+      "balance": 3000,
+      "accountno": "1234578"
+    }
+  ],
+  "beneficiary": [
+    {
+      "id": "1-0",
+      "accountno": "123457",
+      "accountholdername": "satish",
+      "beneficiaryFor": 1
+    },
+    {
+      "id": "1-1",
+      "accountno": "1234578",
+      "accountholdername": "mohan",
+      "beneficiaryFor": 1
+    }
+  ],
+  "transactionHistry": [
+    {
+      "id": "1-15/02/2024, 12:54:27",
+      "tranferee_account_no": "123457",
+      "transferer_account": "123456",
+      "transferer_id": 1,
+      "amount": "500"
+    }
+  ]
+}

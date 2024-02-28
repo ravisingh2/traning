@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee Form</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h2>Add Employee</h2>
+    <form id="employeeForm">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="designation">Designation:</label>
+            <input type="text" id="designation" name="designation" required>
+        </div>
+        <button type="button" onclick="submitForm()">Add Employee</button>
+    </form>
+
+
+    <div>   
+        List of employee=========================
+    </div>
+    <div id="myElement"></div>
+    <script>
+        showEmployeeList();
+    </script>   
+</body>
+</html>

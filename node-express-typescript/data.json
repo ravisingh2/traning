@@ -1,0 +1,4 @@
+{
+  "productList":[{"id":1, "category_id":1, "name":"apple"}, {"id":2, "category_id":2, "name":"potato"}],
+  "categoryList":[{"id":1, "name":"fruit"}, {"id":2, "name":"veg"}]
+}
